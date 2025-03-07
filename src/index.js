@@ -6,3 +6,9 @@ const rocket = { items: 'box of rocket', quantity: 5, priceEa: 25.0}
 const shells = { items: 'box of shells', quantity: 8, priceEa: 1.0}
 
 const calcOrderCost = (order) =>  order.quantity * order.priceEa 
+ 
+const numbers = [1,2,3,4,5]
+
+const doubleNumber = numbers.map((numbers) => number * 2)
+
+console.log(doubleNumber)
